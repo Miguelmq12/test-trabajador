@@ -1,0 +1,83 @@
+.activity-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 100% !important;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+}
+
+.activity-card .card-body {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.activity-card h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.activity-card .status-icon-container {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.activity-card .status-icon-ok {
+  color: white;
+}
+.activity-card .status-icon-warning {
+  color: black;
+}
+
+.activity-card .action-btn {
+  width: 100%;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.activity-card .action-btn:hover {
+  opacity: 0.9;
+}
+
+.activity-card.completed {
+  background-color: #28a745;
+  color: white;
+}
+
+.activity-card.pending {
+  background-color: white;
+  color: black;
+}
+
+.activity-card .action-btn.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.activity-card .action-btn.danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .activity-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) {
+  .activity-card {
+    width: 50%;
+  }
+}
+

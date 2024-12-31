@@ -1,0 +1,27 @@
+{
+    "states": [
+      { "label": "California", "value": "CA" },
+      { "label": "New York", "value": "NY" },
+      { "label": "Texas", "value": "TX" }
+    ],
+    "jobTitles": [
+      { "label": "Software Engineer", "value": "SE" },
+      { "label": "Product Manager", "value": "PM" },
+      { "label": "UX Designer", "value": "UXD" }
+    ],
+    "workingStatusOptions": [
+      { "label": "Full-time", "value": "fulltime" },
+      { "label": "Part-time", "value": "parttime" }
+    ],
+    "departments": [
+      { "label": "Engineering", "value": "Engineering" },
+      { "label": "HR", "value": "HR" },
+      { "label": "Sales", "value": "Sales" }
+    ],
+    "compensationOptions": [
+      { "label": "High", "value": "high" },
+      { "label": "Medium", "value": "medium" },
+      { "label": "Low", "value": "low" }
+    ]
+  }
+  
